@@ -5,7 +5,7 @@
 		
 		body { 
   background-image: url('images/cloud2.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; 
 }
@@ -22,9 +22,21 @@
   background-color: white;
   text-align: center;
 }
-html, body {
-     min-height: 100%;
-}
+* { 
+    box-sizing: border-box; 
+} 
+ 
+html { 
+    width: 100%; 
+    min-height: 100%; 
+} 
+ 
+body { 
+    width: inherit; 
+    min-height: inherit; 
+    margin: 0; 
+    padding: 0; 
+} 
 	</style>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
