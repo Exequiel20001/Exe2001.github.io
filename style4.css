@@ -22,11 +22,4 @@ body {
 html, body {
      min-height: 100%;
 }
-.image{
-    position: absolute;
-    top: 15px;
-}
-.image2{
-    position: relative;
-    bottom: -20px;
-}
+
