@@ -29,14 +29,14 @@ a {
   width: 250px;
   height: 30px;
   border-radius: 20px;
-  border: 4px solid #676A8A;
+  border: 4px solid #F2FF00;
   padding: auto;
   margin: 10px;
   background-color: white;
   text-align: center;
 }
 .imagen{
-  border: 5px solid #676A8A;
+  border: 5px solid #4126BD;
 }
 .image{
     position: absolute;
