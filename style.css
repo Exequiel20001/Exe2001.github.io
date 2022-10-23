@@ -4,6 +4,9 @@ body {
   background-attachment: fixed;
   background-position: center; 
 }
+img {
+    pointer-events: none;
+}
 .responsive {
   max-width: 100%;
   height: auto;
